@@ -1,0 +1,601 @@
+{
+    "info": {
+        "_postman_id": "5cf43e70-08d4-4de7-bc4e-4c47cc3997c0",
+        "name": "Items API V2",
+        "description": "Items API",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "items",
+            "item": [
+                {
+                    "name": "{id}",
+                    "item": [
+                        {
+                            "name": "/items/:id",
+                            "id": "e8da5118-fb5e-4059-992f-44ca42a240fc",
+                            "request": {
+                                "method": "GET",
+                                "header": [
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "entityId",
+                                        "value": "magna"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "clientURN",
+                                        "value": "magna"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "applianceToken",
+                                        "value": "magna"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "systemCode",
+                                        "value": "magna"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "countryCode",
+                                        "value": "magna"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "clientCode",
+                                        "value": "magna"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "clientGroupCode",
+                                        "value": "magna"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "channelCode",
+                                        "value": "magna"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "clientUserId",
+                                        "value": "magna"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "clientPassword",
+                                        "value": "magna"
+                                    },
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "{{baseUrl}}/items/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "items",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "8a46b025-2182-4138-a119-113616e4d9a1",
+                                            "key": "id",
+                                            "value": "magna",
+                                            "description": "(Required) Id of an item to get details"
+                                        }
+                                    ]
+                                },
+                                "description": "get Item details by Id"
+                            },
+                            "response": [
+                                {
+                                    "id": "4aaeb7a2-06dd-4906-bea3-677546dba309",
+                                    "name": "Success",
+                                    "originalRequest": {
+                                        "method": "GET",
+                                        "header": [
+                                            {
+                                                "description": "Added as a part of security scheme: basic",
+                                                "key": "Authorization",
+                                                "value": "Basic <credentials>"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "entityId",
+                                                "value": "magna"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "clientURN",
+                                                "value": "magna"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "applianceToken",
+                                                "value": "magna"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "systemCode",
+                                                "value": "magna"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "countryCode",
+                                                "value": "magna"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "clientCode",
+                                                "value": "magna"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "clientGroupCode",
+                                                "value": "magna"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "channelCode",
+                                                "value": "magna"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "clientUserId",
+                                                "value": "magna"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "clientPassword",
+                                                "value": "magna"
+                                            }
+                                        ],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/items/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "items",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id",
+                                                    "value": "magna",
+                                                    "description": "(Required) Id of an item to get details"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "json",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "application/json"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": "{\n  \"Source\": {\n    \"ChannelCode\": \"ut ut occaecat reprehenderit sed\",\n    \"ChannelGroupCode\": \"irure Excepteur dolor\",\n    \"SystemCode\": \"elit\",\n    \"CountryCode\": \"ex aliqua\",\n    \"ClientCode\": \"laboris in\",\n    \"ClientCodeDescription\": \"sunt adipisicing dolor aute ut\",\n    \"ClientGroupCode\": \"cup\",\n    \"ClientGroupDescription\": \"ad nostrud cupidatat ea\"\n  },\n  \"ItemDetailsList\": {\n    \"ItemDetails\": {\n      \"ItemCode\": \"dolor\",\n      \"ItemCodeDescription\": \"ea consequat cupidatat quis\",\n      \"ManufacturerBrandCode\": \"anim deserunt eiusmod sin\",\n      \"ManufacturerBrandDescription\": \"in esse sed ut\",\n      \"GoodsColour\": \"laborum sunt\",\n      \"ModelNumber\": \"et dolore\",\n      \"SerialNumber\": \"minim commodo id\",\n      \"OperationalStatusCode\": \"in\",\n      \"DGAllocatedSupplierAgentCode\": \"aliquip in cillum culpa\",\n      \"DGAllocatedSupplierBranchCode\": \"proident culpa id\",\n      \"LastServiceDate\": \"reprehenderit est fugiat consectetur\",\n      \"LastServiceTime\": \"Lorem\",\n      \"ItemCatCode\": \"ullamco consectetur sed anim\",\n      \"ManufacturerBrandGroupCode\": \"ul\",\n      \"ItemID\": {\n        \"EID\": \"ut eu in\"\n      },\n      \"ItemURNList\": {\n        \"ItemURN\": {\n          \"ClientURN\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"ApplianceToken\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n        }\n      },\n      \"Item\": {\n        \"ItemLink\": {\n          \"MemIdNum\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"SrcCode\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n        },\n        \"ItemDetails\": {\n          \"value\": \"<Circular reference to #/components/schemas/ItemDetails detected>\"\n        },\n        \"AdditionalDetails\": {\n          \"BoilerType\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"ExtCovPrdFee\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"PdNettFlg\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"CallSource\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"PeriodOfCover\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"GoodsColour\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"CoverType\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"BreakdownStartDate\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n        },\n        \"OtherIds\": {\n          \"OtherId1\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"OtherId1CategoryCode\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"OtherId2\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"OtherId2CategoryCode\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"OtherId3\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"OtherId3CategoryCode\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"OtherModelId1\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"OtherModelId1CategoryCode\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"OtherModelId2\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"OtherModelId2CategoryCode\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n        },\n        \"Cover\": {\n          \"ManufacturerGuaranteeLabourMonths\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"ManufacturerGuaranteePartsMonths\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"ThirdPartyGuaranteeLabourMonths\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"ThirdPartyGuaranteePartsMonths\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n        },\n        \"Purchase\": {\n          \"PurchasePrice\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"PriceCurrencyCode\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"PurchaseDate\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"PurchaseTime\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"RecommendedPrice\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"RecommendedPriceCurrencyCode\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"PurchaseRetailer\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n        },\n        \"Address\": {\n          \"AddressCategory\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"AddressOverride\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"AddressStatus\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"AddressDetails\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n        },\n        \"PersonOwnerList\": {\n          \"PersonOwner\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n        },\n        \"PersonUserList\": {\n          \"PersonUser\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n        },\n        \"ClientCode\": \"ullamco id et quis\",\n        \"ItemCtgCode\": \"ut Ut ea\"\n      }\n    }\n  },\n  \"ErrorResponseList\": {\n    \"Error\": {\n      \"ErrorCode\": \"minim dolor\",\n      \"ErrorDescription\": \"fugiat\"\n    }\n  }\n}"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "/items/:id",
+                            "id": "8333182c-9c5f-458d-91fd-1e85ff9833dd",
+                            "protocolProfileBehavior": {
+                                "disableBodyPruning": true
+                            },
+                            "request": {
+                                "method": "PUT",
+                                "header": [
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "entityId",
+                                        "value": "magna"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "clientURN",
+                                        "value": "magna"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "applianceToken",
+                                        "value": "magna"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "systemCode",
+                                        "value": "magna"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "countryCode",
+                                        "value": "magna"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "clientCode",
+                                        "value": "magna"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "clientGroupCode",
+                                        "value": "magna"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "channelCode",
+                                        "value": "magna"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "clientUserId",
+                                        "value": "magna"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "clientPassword",
+                                        "value": "magna"
+                                    },
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "body": {
+                                    "mode": "raw",
+                                    "raw": "{\n  \"ItemID\": {\n    \"EID\": \"cupidatat irure amet\"\n  },\n  \"ItemURN\": {\n    \"ClientURN\": \"ipsum cupidatat\",\n    \"ApplianceToken\": \"irure minim ipsum\"\n  },\n  \"BabyPlanList\": {\n    \"BabyPlan\": {\n      \"CompanyCode\": \"exercitation mollit sint\",\n      \"SchemeCode\": \"cillum aliquip officia\",\n      \"Reference\": \"dolore Duis velit\",\n      \"ItemCode\": \"sit exercitation aliquip\",\n      \"ModelNumber1\": \"aliquip cillum Ut\",\n      \"ModelNumber2\": \"irure Duis deserunt te\",\n      \"ErrorMessage\": \"Ut\"\n    }\n  },\n  \"ErrorResponseList\": {\n    \"Error\": {\n      \"ErrorCode\": \"ut labore ex Excepteur\",\n      \"ErrorDescription\": \"officia cupidatat sint\"\n    }\n  }\n}",
+                                    "options": {
+                                        "raw": {
+                                            "language": "json"
+                                        }
+                                    }
+                                },
+                                "url": {
+                                    "raw": "{{baseUrl}}/items/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "items",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "48060981-edf0-4d83-86c4-6d74f71230cd",
+                                            "key": "id",
+                                            "value": "magna",
+                                            "description": "(Required) Id of an item to get details"
+                                        }
+                                    ]
+                                },
+                                "description": "updates an item by Id"
+                            },
+                            "response": [
+                                {
+                                    "id": "05795014-466d-463d-acd5-5d7876b017aa",
+                                    "name": "Success",
+                                    "originalRequest": {
+                                        "method": "PUT",
+                                        "header": [
+                                            {
+                                                "description": "Added as a part of security scheme: basic",
+                                                "key": "Authorization",
+                                                "value": "Basic <credentials>"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "entityId",
+                                                "value": "magna"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "clientURN",
+                                                "value": "magna"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "applianceToken",
+                                                "value": "magna"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "systemCode",
+                                                "value": "magna"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "countryCode",
+                                                "value": "magna"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "clientCode",
+                                                "value": "magna"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "clientGroupCode",
+                                                "value": "magna"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "channelCode",
+                                                "value": "magna"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "clientUserId",
+                                                "value": "magna"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "clientPassword",
+                                                "value": "magna"
+                                            }
+                                        ],
+                                        "body": {
+                                            "mode": "raw",
+                                            "raw": "{\n  \"ItemID\": {\n    \"EID\": \"cupidatat irure amet\"\n  },\n  \"ItemURN\": {\n    \"ClientURN\": \"ipsum cupidatat\",\n    \"ApplianceToken\": \"irure minim ipsum\"\n  },\n  \"BabyPlanList\": {\n    \"BabyPlan\": {\n      \"CompanyCode\": \"exercitation mollit sint\",\n      \"SchemeCode\": \"cillum aliquip officia\",\n      \"Reference\": \"dolore Duis velit\",\n      \"ItemCode\": \"sit exercitation aliquip\",\n      \"ModelNumber1\": \"aliquip cillum Ut\",\n      \"ModelNumber2\": \"irure Duis deserunt te\",\n      \"ErrorMessage\": \"Ut\"\n    }\n  },\n  \"ErrorResponseList\": {\n    \"Error\": {\n      \"ErrorCode\": \"ut labore ex Excepteur\",\n      \"ErrorDescription\": \"officia cupidatat sint\"\n    }\n  }\n}",
+                                            "options": {
+                                                "raw": {
+                                                    "language": "json"
+                                                }
+                                            }
+                                        },
+                                        "url": {
+                                            "raw": "{{baseUrl}}/items/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "items",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id",
+                                                    "value": "magna",
+                                                    "description": "(Required) Id of an item to get details"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "6b20f0be-6f71-4cc3-a733-aaae0fa8ec44"
+                },
+                {
+                    "name": "/items",
+                    "id": "8cd2a0e9-eb5c-4def-ba12-ec1fc41a8900",
+                    "protocolProfileBehavior": {
+                        "disableBodyPruning": true
+                    },
+                    "request": {
+                        "method": "POST",
+                        "header": [
+                            {
+                                "description": "(Required) description of parameter passed",
+                                "key": "entityId",
+                                "value": "magna"
+                            },
+                            {
+                                "description": "(Required) description of parameter passed",
+                                "key": "clientURN",
+                                "value": "magna"
+                            },
+                            {
+                                "description": "(Required) description of parameter passed",
+                                "key": "applianceToken",
+                                "value": "magna"
+                            },
+                            {
+                                "description": "(Required) description of parameter passed",
+                                "key": "systemCode",
+                                "value": "magna"
+                            },
+                            {
+                                "description": "(Required) description of parameter passed",
+                                "key": "countryCode",
+                                "value": "magna"
+                            },
+                            {
+                                "description": "(Required) description of parameter passed",
+                                "key": "clientCode",
+                                "value": "magna"
+                            },
+                            {
+                                "description": "(Required) description of parameter passed",
+                                "key": "clientGroupCode",
+                                "value": "magna"
+                            },
+                            {
+                                "description": "(Required) description of parameter passed",
+                                "key": "channelCode",
+                                "value": "magna"
+                            },
+                            {
+                                "description": "(Required) description of parameter passed",
+                                "key": "clientUserId",
+                                "value": "magna"
+                            },
+                            {
+                                "description": "(Required) description of parameter passed",
+                                "key": "clientPassword",
+                                "value": "magna"
+                            },
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n  \"ItemID\": {\n    \"EID\": \"tempor dolor sunt\"\n  },\n  \"ItemURN\": {\n    \"ClientURN\": \"magna ad dolor laboris enim\",\n    \"ApplianceToken\": \"ad qui\"\n  },\n  \"Mailer\": {\n    \"CompanyCode\": \"sunt\",\n    \"SchemeCode\": \"eiusmod ipsum\",\n    \"Reference\": \"do tempor\"\n  },\n  \"RTPOfferReferenceList\": {\n    \"RTPOfferReference\": {\n      \"OfferReference\": \"deserunt consequat\",\n      \"OfferKey\": \"deserunt sit\",\n      \"CallSource\": \"sit cillum ut esse\"\n    }\n  },\n  \"RTPRateList\": {\n    \"RTPRate\": {\n      \"CallSourceDetails\": {\n        \"CallSource\": \"dolore eiusmod\",\n        \"CallSourceDescription\": \"esse\",\n        \"Scheme\": {\n          \"CompanyCode\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"SchemeCode\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"TelRegMakerCode\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n        },\n        \"Agent\": {\n          \"AgentNumber\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"SchemeCodeBranchNumber\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n        },\n        \"ItemCode\": \"officia do qui incididunt\",\n        \"ItemCodeDescription\": \"do adipisicing veniam\",\n        \"PriceBand\": \"quis cupidatat\",\n        \"NumberOfItems\": \"dolor Lorem ut ipsum\",\n        \"CoverType\": \"officia Duis incididunt laborum et\",\n        \"BreakdownStartDate\": \"tempor enim reprehenderit sit dolore\",\n        \"ContractType\": {\n          \"ProductCategory\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"ProductCategoryDesc\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"ProductType\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"ProductTypeDesc\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"ProductVariance\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"ProductVarianceDesc\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"PaymentTerm\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"PaymentTermDesc\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"ContractTypeCode\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"ContractTypeDesc\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"ProductDescription\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n        }\n      },\n      \"RTPOfferDetails\": {\n        \"OfferReference\": \"sint dolor culpa irure\",\n        \"OfferKey\": \"mollit aliqua dolore qui\",\n        \"OfferPricingKey\": \"voluptate\",\n        \"PeriodOfCover\": \"Excepteur qui\",\n        \"Fee\": \"adipisicing dolor\",\n        \"WaitDays\": \"enim qui commodo dolore\",\n        \"WicType\": \"in ipsum\",\n        \"MultiplanType\": \"proident laborum adipisicing exercitation mol\",\n        \"MultiplanWarrantyType\": \"in\",\n        \"RTPPaymentDetails\": {\n          \"PreferredPayment\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"PaymentType\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"PaymentProfile\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"CashPaymentType\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"NumberOfPayments\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"PaymentFrequency\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"FirstPayment\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"SubsequentPayment\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"ExcessAmount\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"RTPRates\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n        }\n      }\n    }\n  },\n  \"AlternativeApplianceList\": {\n    \"AlternativeAppliance\": {\n      \"CompanyCode\": \"aliqua ut\",\n      \"SchemeCode\": \"magna sunt\",\n      \"ItemGroupCode\": \"enim culpa id ea anim\",\n      \"ItemCode\": \"velit cupidatat\",\n      \"ItemDescription\": \"ipsum aliqua Duis\"\n    }\n  },\n  \"ErrorResponseList\": {\n    \"Error\": {\n      \"ErrorCode\": \"eu dolore ullamco\",\n      \"ErrorDescription\": \"magna ea reprehenderit tempor cillum\"\n    }\n  }\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "url": {
+                            "raw": "{{baseUrl}}/items",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "items"
+                            ]
+                        },
+                        "description": "creates Item"
+                    },
+                    "response": [
+                        {
+                            "id": "050c957a-62d8-4b03-9c2b-a958c342d765",
+                            "name": "Success",
+                            "originalRequest": {
+                                "method": "POST",
+                                "header": [
+                                    {
+                                        "description": "Added as a part of security scheme: basic",
+                                        "key": "Authorization",
+                                        "value": "Basic <credentials>"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "entityId",
+                                        "value": "magna"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "clientURN",
+                                        "value": "magna"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "applianceToken",
+                                        "value": "magna"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "systemCode",
+                                        "value": "magna"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "countryCode",
+                                        "value": "magna"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "clientCode",
+                                        "value": "magna"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "clientGroupCode",
+                                        "value": "magna"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "channelCode",
+                                        "value": "magna"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "clientUserId",
+                                        "value": "magna"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "clientPassword",
+                                        "value": "magna"
+                                    }
+                                ],
+                                "body": {
+                                    "mode": "raw",
+                                    "raw": "{\n  \"ItemID\": {\n    \"EID\": \"tempor dolor sunt\"\n  },\n  \"ItemURN\": {\n    \"ClientURN\": \"magna ad dolor laboris enim\",\n    \"ApplianceToken\": \"ad qui\"\n  },\n  \"Mailer\": {\n    \"CompanyCode\": \"sunt\",\n    \"SchemeCode\": \"eiusmod ipsum\",\n    \"Reference\": \"do tempor\"\n  },\n  \"RTPOfferReferenceList\": {\n    \"RTPOfferReference\": {\n      \"OfferReference\": \"deserunt consequat\",\n      \"OfferKey\": \"deserunt sit\",\n      \"CallSource\": \"sit cillum ut esse\"\n    }\n  },\n  \"RTPRateList\": {\n    \"RTPRate\": {\n      \"CallSourceDetails\": {\n        \"CallSource\": \"dolore eiusmod\",\n        \"CallSourceDescription\": \"esse\",\n        \"Scheme\": {\n          \"CompanyCode\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"SchemeCode\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"TelRegMakerCode\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n        },\n        \"Agent\": {\n          \"AgentNumber\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"SchemeCodeBranchNumber\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n        },\n        \"ItemCode\": \"officia do qui incididunt\",\n        \"ItemCodeDescription\": \"do adipisicing veniam\",\n        \"PriceBand\": \"quis cupidatat\",\n        \"NumberOfItems\": \"dolor Lorem ut ipsum\",\n        \"CoverType\": \"officia Duis incididunt laborum et\",\n        \"BreakdownStartDate\": \"tempor enim reprehenderit sit dolore\",\n        \"ContractType\": {\n          \"ProductCategory\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"ProductCategoryDesc\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"ProductType\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"ProductTypeDesc\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"ProductVariance\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"ProductVarianceDesc\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"PaymentTerm\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"PaymentTermDesc\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"ContractTypeCode\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"ContractTypeDesc\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"ProductDescription\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n        }\n      },\n      \"RTPOfferDetails\": {\n        \"OfferReference\": \"sint dolor culpa irure\",\n        \"OfferKey\": \"mollit aliqua dolore qui\",\n        \"OfferPricingKey\": \"voluptate\",\n        \"PeriodOfCover\": \"Excepteur qui\",\n        \"Fee\": \"adipisicing dolor\",\n        \"WaitDays\": \"enim qui commodo dolore\",\n        \"WicType\": \"in ipsum\",\n        \"MultiplanType\": \"proident laborum adipisicing exercitation mol\",\n        \"MultiplanWarrantyType\": \"in\",\n        \"RTPPaymentDetails\": {\n          \"PreferredPayment\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"PaymentType\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"PaymentProfile\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"CashPaymentType\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"NumberOfPayments\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"PaymentFrequency\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"FirstPayment\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"SubsequentPayment\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"ExcessAmount\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"RTPRates\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n        }\n      }\n    }\n  },\n  \"AlternativeApplianceList\": {\n    \"AlternativeAppliance\": {\n      \"CompanyCode\": \"aliqua ut\",\n      \"SchemeCode\": \"magna sunt\",\n      \"ItemGroupCode\": \"enim culpa id ea anim\",\n      \"ItemCode\": \"velit cupidatat\",\n      \"ItemDescription\": \"ipsum aliqua Duis\"\n    }\n  },\n  \"ErrorResponseList\": {\n    \"Error\": {\n      \"ErrorCode\": \"eu dolore ullamco\",\n      \"ErrorDescription\": \"magna ea reprehenderit tempor cillum\"\n    }\n  }\n}",
+                                    "options": {
+                                        "raw": {
+                                            "language": "json"
+                                        }
+                                    }
+                                },
+                                "url": {
+                                    "raw": "{{baseUrl}}/items",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "items"
+                                    ]
+                                }
+                            },
+                            "status": "OK",
+                            "code": 200,
+                            "_postman_previewlanguage": "text",
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "text/plain"
+                                }
+                            ],
+                            "cookie": [],
+                            "responseTime": null,
+                            "body": ""
+                        }
+                    ]
+                }
+            ],
+            "id": "61e0b6d6-f275-4e45-a213-d65cd0453f55"
+        }
+    ],
+    "auth": {
+        "type": "basic",
+        "basic": [
+            {
+                "key": "username",
+                "value": "<Basic Auth Username>",
+                "type": "string"
+            },
+            {
+                "key": "password",
+                "value": "<Basic Auth Password>",
+                "type": "string"
+            }
+        ]
+    },
+    "variable": [
+        {
+            "id": "a1c0f421-5f1e-449e-80b9-bb3bac8fca52",
+            "key": "baseUrl",
+            "value": "<to be set>",
+            "type": "string"
+        }
+    ]
+}
