@@ -4,7 +4,7 @@ info:
   title: Items API V2
   description: Items API
 servers: 
-  - url: <to be set>
+  - url: "https://example.com"
     description: API Server Description
 security: 
   - BasicAuth: []
